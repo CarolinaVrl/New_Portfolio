@@ -1,44 +1,59 @@
 import React from 'react';
+import pokedex from './Proyectos/pokedexPc.png';
+import ecommerceJs from './Proyectos/ecommercejsCel.png';
+import ecommerceReact from './Proyectos/ecommerceReactPc.png';
+import phrasesRandom from './Proyectos/phrasesRandom.png';
+import qr from './Proyectos/qrcel.png';
+import crud from './Proyectos/Crud.png'
 
 
 
 export default [
-    pokedex={
-        cel:
-        pc:
+    {
+        name: 'Pokedex',
+        img: pokedex
+
 
     },
-    goAndStay={
-        cel:
-        pc:
+    // goAndStay={
+    //     name:'GoAndStay'
+
+
+
+    // },
+    // PrestiYa={
+    //     name:
+    //     img:
+
+
+    // },
+    {
+        name: 'Lista de Usuarios',
+        img: crud
+
 
     },
-    PrestiYa={
-        cel:
-        pc:
+    {
+        name: 'Ecommerce',
+        img: ecommerceReact
+
 
     },
-    crud={
-        cel:
-        pc:
+    {
+        name: 'Ecommerce Academlo',
+        img: ecommerceJs
+
 
     },
-    ecommerceReact={
-        cel:
-        pc:
+    {
+        name: 'Qr',
+        img: qr
+
 
     },
-    ecommerceJs={
-        cel:
-        pc:
+    {
+        name: 'Frases Random',
+        img: phrasesRandom
 
-    },
-    qrFrontMentor={
-        cel:
-        pc:
-
-    },
-    randomphrases={
-        pc:
     }
 ]

@@ -3,16 +3,32 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='footer'>
+            <h2>Diana</h2>
             <div>
-                <h2>Desarrolladora</h2>
-                <h2>Front-End</h2>
+                <ul>
+                    <li>Sobre mí</li>
+                    <li>Proyectos</li>
+                </ul>
             </div>
-            <div className='social'>
-                <a href=""><i className="fa-brands fa-instagram" target='_blank'></i></a>
-                <a href="https://github.com/CarolinaVrl" target='_blank'><i className="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/dianacarolinavillarreal/" target='_blank'><i className="fa-brands fa-linkedin"></i></a>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i>
+
+                        </a>
+                    </li>
+                    <li><a href="">
+                        <i class="fa-solid fa-paper-plane"></i></a>
+                    </li>
+                </ul>
             </div>
-            
+
+
         </div>
     );
 };

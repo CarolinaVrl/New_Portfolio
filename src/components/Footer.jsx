@@ -19,7 +19,6 @@ const Footer = () => {
                     </li>
                     <li>
                         <a href="https://api.whatsapp.com/send/?phone=573178244287" target='_blank'><i className="fa-brands fa-square-whatsapp"></i>
-
                         </a>
                     </li>
                     <li><a href="mailto:dianacarolinav97@gmail.com">

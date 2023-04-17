@@ -54,7 +54,7 @@ const Principal = () => {
                             Soy una persona responsable que disfruta el trabajar en equipo y aprender cosas nuevas en este mundo de la tecnología
 
                         </p>
-                        <h3>¡Me encantaría trabajar para tu empresa y cumplir juntos nuevos objetivos!</h3>
+                        <h3 style={{fontWeight:'bold'}}>¡Me encantaría trabajar para tu empresa y cumplir juntos nuevos objetivos!</h3>
                         <button><a href="#contact">Contáctame!</a></button>
 
                     </div>
@@ -200,13 +200,13 @@ const Principal = () => {
                     <i className="fa-brands fa-whatsapp"></i>
                     <h3 className='contact-title'>Whatsapp</h3>
                     <h3 className='contact-subtext'>+57 3178244287</h3>
-                    <a href="https://api.whatsapp.com/send/?phone=573178244287">Escríbeme</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573178244287" target='_blank'>Escríbeme</a>
                 </div>
                 <div className='container_contact'>
                     <i className="fa-brands fa-linkedin-in"></i>
                     <h3 className='contact-title'>Linkedin</h3>
                     <h3 className='contact-subtext'>linkedin.com/in/dianacarolinavillarreal/</h3>
-                    <a href="">Escríbeme</a>
+                    <a href="https://www.linkedin.com/in/dianacarolinavillarreal/" target='_blank'>Escríbeme</a>
 
                 </div>
             </section>

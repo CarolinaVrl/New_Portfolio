@@ -255,6 +255,11 @@
   border-radius: 10px;
 }
 
+.aboutMe a{
+  text-decoration: none;
+  color: var(--ContainerBackground);
+}
+
 /* ----------------exp-------------*/
 .exp {
   display: flex;

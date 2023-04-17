@@ -3,6 +3,8 @@ import projects from '../assets/proyects'
 import diana from '../assets/Diana.png'
 import diana2 from '../assets/diana2.png'
 import tecnologys from '../assets/tecnologys';
+import hv from'../assets/Documents/diana_villarreal_hv.pdf';
+
 
 const Principal = () => {
     return (
@@ -10,13 +12,14 @@ const Principal = () => {
             <div className='together'>
 
 
-                <section className='inicio'>
+                <section id='home' className='inicio'>
                     <h2 >Hola! <span style={{ color: 'white' }}> Soy</span> </h2>
                     <h1>Diana Carolina <br /> Villarreal</h1>
                     <h2 style={{ color: 'white' }}>Desarrolladora FrontEnd</h2>
                     <div>
-                        <button className='dowload'>Descargar CV</button>
-                        <button>Sobre mí</button>
+                        <a href={hv} target='_blank' download='Diana_Villarreal_HV.pdf' rel='noopener noreferrer'><button className='dowload'>Descargar CV</button></a>
+
+                        <a href="#about"><button >Sobre mí</button></a>
                     </div>
 
                 </section>
@@ -26,22 +29,22 @@ const Principal = () => {
                             <img src={diana} alt="" />
                         </div>
                         <div className='home_media'>
-                            <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
-                            <a href=""><i className="fa-brands fa-whatsapp"></i></a>
-                            <a href=""><i className="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/dianacarolinavillarreal/" target='_blank' ><i className="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=573178244287" target='_blank' ><i className="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://github.com/CarolinaVrl" target='_blank' ><i className="fa-brands fa-github"></i></a>
 
                         </div>
 
                     </div>
                 </section>
             </div>
-            <section className='aboutMe'>
+            <section id='about' className='aboutMe'>
                 <h2>Sobre mí</h2>
                 <div className='about_container'>
-                    <div className='about_photo'>
+                    {/* <div className='about_photo'>
                         <img src={diana2} alt="" />
 
-                    </div>
+                    </div> */}
                     <div className='about_text'>
                         <p>
                             Soy una programadora con habilidades en JavaScript usando la librería de React.
@@ -52,16 +55,16 @@ const Principal = () => {
 
                         </p>
                         <h3>¡Me encantaría trabajar para tu empresa y cumplir juntos nuevos objetivos!</h3>
-                        <button>Contáctame!</button>
+                        <button><a href="#contact">Contáctame!</a></button>
 
                     </div>
 
-                    
+
 
                 </div>
 
             </section>
-            <section className='exp'>
+            <section id='tecnologys' className='exp'>
                 <h2>Mi Experiencia</h2>
                 <div className='exp_container'>
 
@@ -156,7 +159,7 @@ const Principal = () => {
                 </div>
 
             </section>
-            <section className='proyects'>
+            <section id='proyects' className='proyects'>
                 <h2 className='title'>Proyectos</h2>
                 {/* <div className='proyects_filter'>
                     <ul>
@@ -184,20 +187,20 @@ const Principal = () => {
 
 
             </section>
-            <section className='contact'>
+            <section id='contact' className='contact'>
                 <h2>Contáctame</h2>
                 <div className='container_contact'>
                     <i className="fa-regular fa-paper-plane"></i>
                     <h3 className='contact-title'>Email</h3>
                     <h3 className='contact-subtext'>dianacarolinav97@gmail.com</h3>
-                    <a href="">Escríbeme</a>
+                    <a href="mailto:dianacarolinav97@gmail.com">Escríbeme</a>
 
                 </div>
                 <div className='container_contact'>
                     <i className="fa-brands fa-whatsapp"></i>
                     <h3 className='contact-title'>Whatsapp</h3>
                     <h3 className='contact-subtext'>+57 3178244287</h3>
-                    <a href="">Escríbeme</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573178244287">Escríbeme</a>
                 </div>
                 <div className='container_contact'>
                     <i className="fa-brands fa-linkedin-in"></i>

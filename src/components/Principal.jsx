@@ -8,9 +8,9 @@ const Principal = () => {
     return (
         <div className='principal'>
             <section className='inicio'>
-                <h2>Hola! <span>soy</span> </h2>
+                <h2 >Hola! <span style={{color:'white'}}> Soy</span> </h2>
                 <h1>Diana Carolina <br /> Villarreal</h1>
-                <h2>Desarrolladora FrontEnd</h2>
+                <h2 style={{color:'white'}}>Desarrolladora FrontEnd</h2>
                 <div>
                     <button className='dowload'>Descargar CV</button>
                     <button>Sobre mí</button>
@@ -157,6 +157,7 @@ const Principal = () => {
                         <li>HTML - CSS</li>
                     </ul>
                 </div> */}
+                <div className='proyects_container_main'>
                 {
                     projects.map(item => (
                         <div className='proyects_card'>
@@ -170,6 +171,8 @@ const Principal = () => {
                     ))
 
                 }
+                </div>
+               
 
             </section>
             <section className='contact'>

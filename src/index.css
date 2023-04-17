@@ -104,6 +104,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .inicio h1 {
@@ -119,7 +120,7 @@
 .inicio div {
   display: flex;
   gap: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .inicio button {
@@ -160,6 +161,7 @@
   max-width: 250px;
   position: relative;
   height: 300px;
+  max-height: 300px;
   border-radius: 100px 100px 0 0;
 }
 
@@ -203,6 +205,13 @@
 
 
 }
+.about_container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
 .about_photo img {
   width: 60%;
@@ -212,21 +221,27 @@
 
 .about_text {
   width: 80%;
-  text-align: justify;
+ 
   color: whitesmoke;
   max-width: 400px;
+  align-content: center;
+  justify-content: center;
+  
 
 }
 
 .about_text p {
   padding-bottom: 20px;
-  font-size: 14px
+  font-size: 14px;
+  text-align: justify;
+ 
 }
 
 .about_text h3 {
   font-size: 15px;
   font-weight: 300;
   color: var(--text2);
+  padding-bottom: 30px;
 }
 
 .aboutMe button {
@@ -504,11 +519,24 @@
 @media screen and (min-width:768px) {}
 
 @media screen and (min-width:992px) {
+ /* .together{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 100%;
+  
+ } */
   .exp_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
+  }
+
+  .about_container{
+    flex-direction:row ;
+
   }
 }
 

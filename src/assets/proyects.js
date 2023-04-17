@@ -11,7 +11,8 @@ import crud from './Proyectos/Crud.png'
 export default [
     {
         name: 'Pokedex',
-        img: pokedex
+        img: pokedex,
+        url:'https://pokedex-villarreal.netlify.app'
 
 
     },
@@ -29,31 +30,36 @@ export default [
     // },
     {
         name: 'Lista de Usuarios',
-        img: crud
+        img: crud,
+        url:'https://warm-sherbet-f40739.netlify.app'
 
 
     },
     {
         name: 'Ecommerce',
-        img: ecommerceReact
+        img: ecommerceReact,
+        url:'https://eccomerce-react-tvs.netlify.app'
 
 
     },
     {
         name: 'Ecommerce Academlo',
-        img: ecommerceJs
+        img: ecommerceJs,
+        url:'https://peppy-frangollo-f76b91.netlify.app'
 
 
     },
     {
         name: 'Qr',
-        img: qr
+        img: qr,
+        url:'https://playful-beignet-2d3d52.netlify.app'
 
 
     },
     {
         name: 'Frases Random',
-        img: phrasesRandom
+        img: phrasesRandom,
+        url:'https://random-phrases-6d755a.netlify.app'
 
     }
 ]

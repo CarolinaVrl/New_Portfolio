@@ -163,7 +163,7 @@ const Principal = () => {
                             <img src={item.img} alt="" />
                             <div className='proyects_text'>
                                 <h2>{item.name}</h2>
-                                <a href="">Sitio Web</a>
+                                <a href={item.url} target='_blank'>Sitio Web</a>
                             </div>
 
                         </div>

@@ -5,7 +5,7 @@ const Header = () => {
         <div className='header'>
             <h2>Diana</h2>
             <div>
-                <i className='bx bx-sun'></i>
+                {/* <i className='bx bx-sun'></i> */}
             </div>
 
 

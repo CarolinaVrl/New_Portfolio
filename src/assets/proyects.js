@@ -4,7 +4,8 @@ import ecommerceJs from './Proyectos/ecommercejsCel.png';
 import ecommerceReact from './Proyectos/ecommerceReactPc.png';
 import phrasesRandom from './Proyectos/phrasesRandom.png';
 import qr from './Proyectos/qrcel.png';
-import crud from './Proyectos/Crud.png'
+import crud from './Proyectos/Crud.png';
+import results from './Proyectos/results.png'
 
 
 
@@ -61,5 +62,10 @@ export default [
         img: phrasesRandom,
         url:'https://random-phrases-6d755a.netlify.app'
 
+    },
+    {
+        name:'Resultados',
+        img: results,
+        url:'https://result-htmlcss.netlify.app'
     }
 ]

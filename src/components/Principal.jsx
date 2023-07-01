@@ -161,14 +161,15 @@ const Principal = () => {
             </section>
             <section id='proyects' className='proyects'>
                 <h2 className='title'>Proyectos</h2>
-                {/* <div className='proyects_filter'>
+                <div className='proyects_filter'>
                     <ul>
-                        <li>All</li>
-                        <li>React</li>
-                        <li>JavaScript</li>
-                        <li>HTML - CSS</li>
+                        <li><button className='btn-filter'>All</button></li>
+                        <li><button className='btn-filter'>HTML Y CSS</button></li>
+                        <li><button className='btn-filter'>JavaScript</button></li>
+                        <li><button className='btn-filter'>React</button></li>
+                        <li><button className='btn-filter'>Angular</button></li>
                     </ul>
-                </div> */}
+                </div>
                 <div className='proyects_container_main'>
                     {
                         projects.map(item => (

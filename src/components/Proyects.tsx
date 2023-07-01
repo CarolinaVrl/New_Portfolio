@@ -1,18 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import projects from '../assets/proyects'
 
 const Proyects = () => {
+
+
+    const allCategories = ['All',...new Set(projects.map(item=>item.category))]
+    const [categories, setCategories]= useState(allCategories)
+    const [project, setProject]=useState(projects)
+
+    const filterCategory=(caategory)=>{
+        console.log(caategory)
+    }
+
     return (
         <section id='proyects' className='proyects'>
         <h2 className='title'>Proyectos</h2>
         <div className='proyects_filter'>
-            <ul>
-                <li><button className='btn-filter'>All</button></li>
-                <li><button className='btn-filter'>HTML Y CSS</button></li>
-                <li><button className='btn-filter'>JavaScript</button></li>
-                <li><button className='btn-filter'>React</button></li>
-                <li><button className='btn-filter'>Angular</button></li>
-            </ul>
+            
+            <button className='btn-filter'>All</button>
+            <button className='btn-filter'>HTML Y CSS</button>
+            <button className='btn-filter'>JavaScript</button>
+            <button className='btn-filter'>React</button>
+            <button className='btn-filter'>Angular</button>
+            
         </div>
         <div className='proyects_container_main'>
             {

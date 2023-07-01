@@ -26,8 +26,9 @@ const Proyects = () => {
                     categories.map(item => (
                         <button
                             type='button'
+                            key={item}
                             onClick={()=>filterCategory(item)}
-                            className='btn-filter'>{item}</button>
+                            className='btn-filter'><span>{item.charAt(0)}</span>{item.substring(1)}</button>
                     ))
                 }
 

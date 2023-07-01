@@ -16,12 +16,13 @@ const Proyects = () => {
         <section id='proyects' className='proyects'>
         <h2 className='title'>Proyectos</h2>
         <div className='proyects_filter'>
+            {
+                categories.map(item=>(
+                    <button className='btn-filter'>{item}</button>
+                ))
+            }
             
-            <button className='btn-filter'>All</button>
-            <button className='btn-filter'>HTML Y CSS</button>
-            <button className='btn-filter'>JavaScript</button>
-            <button className='btn-filter'>React</button>
-            <button className='btn-filter'>Angular</button>
+            
             
         </div>
         <div className='proyects_container_main'>

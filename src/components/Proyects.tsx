@@ -8,8 +8,14 @@ const Proyects = () => {
     const [categories, setCategories] = useState(allCategories)
     const [project, setProject] = useState(projects)
 
-    const filterCategory = (category) => {
-        console.log(category)
+    const filterCategory = (item) => {
+        if(item === 'All'){
+            setProject(projects)
+            return
+        }
+        const filter = projects.filter(projects => projects.category === item)
+        setProject(filter)
+        
     }
 
     return (
@@ -20,7 +26,7 @@ const Proyects = () => {
                     categories.map(item => (
                         <button
                             type='button'
-                            onClick={()=>filterCategory}
+                            onClick={()=>filterCategory(item)}
                             className='btn-filter'>{item}</button>
                     ))
                 }
@@ -30,7 +36,7 @@ const Proyects = () => {
             </div>
             <div className='proyects_container_main'>
                 {
-                    projects.map(item => (
+                    project.map(item => (
                         <div className='proyects_card'>
                             <img src={item.img} alt="" />
                             <div className='proyects_text'>

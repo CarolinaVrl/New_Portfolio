@@ -6,6 +6,7 @@ import phrasesRandom from './Proyectos/phrasesRandom.png';
 import qr from './Proyectos/qrcel.png';
 import crud from './Proyectos/Crud.png';
 import results from './Proyectos/results.png'
+import pres from './Proyectos/pres.png'
 
 
 
@@ -67,5 +68,11 @@ export default [
         name:'Resultados',
         img: results,
         url:'https://result-htmlcss.netlify.app'
+    },
+    {
+        name:'Pres',
+        img: pres,
+        url:'https://credig-testangular.web.app'
+
     }
 ]

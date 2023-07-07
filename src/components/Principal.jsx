@@ -1,9 +1,7 @@
 import React from 'react';
-
 import diana from '../assets/Diana.png'
-import diana2 from '../assets/diana2.png'
 import tecnologys from '../assets/tecnologys';
-import hv from'../assets/Documents/diana_villarreal_hv.pdf';
+import hv from '../assets/Documents/CV Diana Villarreal.pdf'
 import Proyects from './Proyects';
 
 
@@ -18,7 +16,7 @@ const Principal = () => {
                     <h1>Diana Carolina <br /> Villarreal</h1>
                     <h2 style={{ color: 'white' }}>Desarrolladora FrontEnd</h2>
                     <div>
-                        <a href={hv} target='_blank' download='Diana_Villarreal_HV.pdf' rel='noopener noreferrer'><button className='dowload'>Descargar CV</button></a>
+                        <a href={hv} target='_blank' download='diana_villarreal_hv.pdf' rel='noopener noreferrer'><button className='dowload'>Descargar CV</button></a>
 
                         <a href="#about"><button >Sobre mí</button></a>
                     </div>

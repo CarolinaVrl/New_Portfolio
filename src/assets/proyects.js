@@ -60,13 +60,13 @@ export default [
     category:'angular'
   },
   {
-    name: "Nft Component",
+    name: "Componente NFT",
     img: nft,
     url:"https://nft-component-villarreal.netlify.app",
     category:'css'
   },
   {
-    name: "Profile Component",
+    name: "Componente de Usuario",
     img:profile,
     url:"https://propile-card-villarreal.netlify.app/",
     category:'css'

@@ -7,7 +7,8 @@ import qr from "./Proyectos/qrcel.png";
 import crud from "./Proyectos/Crud.png";
 import results from "./Proyectos/results.png";
 import pres from "./Proyectos/pres.png";
-import nft from "./Proyectos/nftComponent.png"
+import nft from "./Proyectos/nftComponent.png";
+import profile from "./Proyectos/profile.png"
 
 export default [
   {
@@ -62,6 +63,12 @@ export default [
     name: "Nft Component",
     img: nft,
     url:"https://nft-component-villarreal.netlify.app",
+    category:'css'
+  },
+  {
+    name: "Profile Component",
+    img:profile,
+    url:"https://propile-card-villarreal.netlify.app/",
     category:'css'
   }
 ];

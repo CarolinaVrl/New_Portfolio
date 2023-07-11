@@ -7,6 +7,7 @@ import qr from "./Proyectos/qrcel.png";
 import crud from "./Proyectos/Crud.png";
 import results from "./Proyectos/results.png";
 import pres from "./Proyectos/pres.png";
+import nft from "./Proyectos/nftComponent.png"
 
 export default [
   {
@@ -57,4 +58,10 @@ export default [
     url: "https://credig-testangular.web.app",
     category:'angular'
   },
+  {
+    name: "Nft Component",
+    img: nft,
+    url:"https://nft-component-villarreal.netlify.app",
+    category:'css'
+  }
 ];

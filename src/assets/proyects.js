@@ -9,6 +9,7 @@ import results from "./Proyectos/results.png";
 import pres from "./Proyectos/pres.png";
 import nft from "./Proyectos/nftComponent.png";
 import profile from "./Proyectos/profile.png"
+import perfume from "./Proyectos/PreviewComponent.png"
 
 export default [
   {
@@ -70,5 +71,11 @@ export default [
     img:profile,
     url:"https://propile-card-villarreal.netlify.app/",
     category:'css'
+  },
+  {
+    name: "Vista de Producto",
+    img:perfume,
+    url:"https://preview-card-villarreal.netlify.app/",
+    category: "css"
   }
 ];

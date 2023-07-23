@@ -8,7 +8,7 @@ import crud from "./Proyectos/Crud.png";
 import results from "./Proyectos/results.png";
 import pres from "./Proyectos/pres.png";
 import nft from "./Proyectos/nftComponent.png";
-import profile from "./Proyectos/profile.png";
+import profile from "./Proyectos/Profile.png";
 import perfume from "./Proyectos/PreviewComponent.png";
 
 export default [

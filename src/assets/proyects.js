@@ -10,6 +10,7 @@ import pres from "./Proyectos/pres.png";
 import nft from "./Proyectos/nftComponent.png";
 import profile from "./Proyectos/Profile.png";
 import perfume from "./Proyectos/PreviewComponent.png";
+import Order from "./Proyectos/ComponentSummary.png";
 
 export default [
   {
@@ -76,6 +77,12 @@ export default [
     name: "Vista de Producto",
     img:perfume,
     url:"https://preview-card-villarreal.netlify.app/",
+    category: "css"
+  },
+  {
+    name: "Resumen de Orden",
+    img:Order,
+    url:"sweet-cheesecake-b216cc.netlify.app",
     category: "css"
   }
 ];

@@ -11,6 +11,7 @@ import nft from "./Proyectos/nftComponent.png";
 import profile from "./Proyectos/Profile.png";
 import perfume from "./Proyectos/PreviewComponent.png";
 import Order from "./Proyectos/ComponentSummary.png";
+import Landing from "./Proyectos/Landing.png"
 
 export default [
   {
@@ -84,5 +85,11 @@ export default [
     img:Order,
     url:"sweet-cheesecake-b216cc.netlify.app",
     category: "css"
+  },
+  {
+    name: "Intro Landing Page",
+    img:Landing,
+    url:"https://superlative-pony-a0d1ef.netlify.app/",
+    category:"css"
   }
 ];

@@ -83,7 +83,7 @@ export default [
   {
     name: "Resumen de Orden",
     img:Order,
-    url:"sweet-cheesecake-b216cc.netlify.app",
+    url:"https://ordersummarytoken.netlify.app/",
     category: "css"
   },
   {
